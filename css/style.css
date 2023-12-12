@@ -9,21 +9,14 @@
 
 /*Icono*/
 #imgIcono{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .photo{
     width: 15rem;
     height: 15rem;
     margin: 20px;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .hero{
@@ -54,6 +47,23 @@ section{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.seccionTitulo{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.segundaSeccion{
+    padding: 10px;
+}
+
+.segundaSeccion .contenedor{
+    max-width: 600px;
+}
+
+.contenedor{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
 /*oculta el icono en dispositivos pequeños*/
 
 @media screen and (max-width: 767px){
@@ -65,11 +75,5 @@ section{
 @media screen and (min-width: 700px){
     .contenidoInferiorImg {
         max-width: 600px
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contenidoInferiorImg{
-        display: none;
     }
 }
