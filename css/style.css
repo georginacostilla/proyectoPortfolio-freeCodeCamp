@@ -1,79 +1,90 @@
-.navbar{
-    background-color:#FBE9E5;
+.navbar {
+    background-color: #FBE9E5;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     justify-content: space-between;
     padding: 1rem;
 }
 
 /*Icono*/
-#imgIcono{
+#imgIcono {
     width: 6rem;
     height: 6rem;
 }
 
-.photo{
+.photo {
     width: 15rem;
     height: 15rem;
     margin: 20px;
 }
 
-.hero{
-   background-color: #FBE9E5;
-   min-height: 450px;
-   text-align: center;
+.hero {
+    background-color: #FBE9E5;
+    min-height: 450px;
+    text-align: center;
 }
 
-.heroPrincipal{
+.heroPrincipal {
     padding: 3rem;
 }
 
-.heroPrincipal h2{
+.heroPrincipal h2 {
     font-size: 1.5rem;
     color: #2A3439;
     font-family: 'Roboto Mono', monospace;
 }
 
-.heroPrincipal h4{
+.heroPrincipal h4 {
     font-size: 1.3rem;
     color: #2A3439;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.heroPrincipal h5{
+.heroPrincipal h5 {
     font-size: 1.2rem;
     color: #625D5D;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.seccionTitulo{
+.seccionTitulo {
     font-family: 'Roboto Mono', monospace;
 }
 
-.segundaSeccion{
+.segundaSeccion {
     padding: 10px;
-}
-
-.segundaSeccion .contenedor{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
     max-width: 600px;
 }
 
-.contenedor{
-    margin-top: 40px;
-    margin-left: 30px;
+.objetivos {
+    background-color: #F0F0F0;
+    padding: 40px;
+}
+
+.diseñoTitulo {
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.bi-laptop,
+.bi-code,
+.bi-pencil-square {
+    font-size: 1.7rem;
 }
 
 /*oculta el icono en dispositivos pequeños*/
 
-@media screen and (max-width: 767px){
-    .navbar-brand{
+@media screen and (max-width: 767px) {
+    .navbar-brand {
         display: none;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
     .contenidoInferiorImg {
         max-width: 600px
-    }
-}
+    }}
