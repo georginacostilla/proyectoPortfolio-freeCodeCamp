@@ -64,7 +64,22 @@
     padding: 40px;
 }
 
-.diseñoTitulo {
+.objetivos .columna{
+    padding: 20px;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.objetivos .columna:hover{
+    color: white;
+    background-color: black;
+}
+
+.overleyTitulo {
     font-family: 'Roboto Mono', monospace;
     margin: 20px;
     font-weight: bold;
@@ -74,6 +89,70 @@
 .bi-code,
 .bi-pencil-square {
     font-size: 1.7rem;
+}
+
+/*////////////////////////////*/
+
+.proyectoReciente {
+    padding: 40px;
+}
+
+.tituloProyecto{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.proyectoReciente img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyecto-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overley {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overley p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover .overley{
+    opacity: 1;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.overley .iconos-contenedor{
+    display: flex;
+}
+
+.overley i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
 }
 
 /*oculta el icono en dispositivos pequeños*/
