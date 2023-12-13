@@ -145,14 +145,16 @@
     position: relative;
 }
 
-.overley .iconos-contenedor{
-    display: flex;
-}
-
 .overley i{
     color: black;
     font-size: 60px;
     margin: 10px;
+}
+
+.btn-secondary {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
 }
 
 /*oculta el icono en dispositivos pequeños*/
@@ -166,4 +168,15 @@
 @media screen and (min-width: 700px) {
     .contenidoInferiorImg {
         max-width: 600px
-    }}
+    }
+}
+
+@media screen and (max-width: 400px){
+    .overley p{
+        font-size: 18px;
+    }
+
+    .overley i{
+        font-size: 30px;
+    }
+}
