@@ -47,14 +47,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.seccionTitulo {
+.diseñoTitulo {
     font-family: 'Roboto Mono', monospace;
+    color: #2A3439;
+}
+
+.letraEnNegrita{
+    font-weight: bold;
 }
 
 .segundaSeccion {
     padding: 10px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     margin-left: 10px;
     max-width: 600px;
 }
@@ -64,7 +69,7 @@
     padding: 40px;
 }
 
-.objetivos .columna{
+.objetivos .columna {
     padding: 20px;
     border: 1px solid #D0D0D0;
     display: flex;
@@ -74,7 +79,7 @@
     transition: all 0.2s ease-in;
 }
 
-.objetivos .columna:hover{
+.objetivos .columna:hover {
     color: white;
     background-color: black;
 }
@@ -97,13 +102,13 @@
     padding: 40px;
 }
 
-.tituloProyecto{
+.tituloProyecto {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.proyectoReciente img{
+.proyectoReciente img {
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -127,17 +132,17 @@
     text-align: center;
 }
 
-.overley p{
+.overley p {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-.proyecto:hover .overley{
+.proyecto:hover .overley {
     opacity: 1;
 }
 
-.proyecto:hover img{
+.proyecto:hover img {
     opacity: 0.2;
 }
 
@@ -145,7 +150,7 @@
     position: relative;
 }
 
-.overley i{
+.overley i {
     color: black;
     font-size: 60px;
     margin: 10px;
@@ -157,6 +162,21 @@
     font-weight: bold;
 }
 
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+    color: #2A3439;
+}
+
 /*oculta el icono en dispositivos pequeños*/
 
 @media screen and (max-width: 767px) {
@@ -165,18 +185,12 @@
     }
 }
 
-@media screen and (min-width: 700px) {
-    .contenidoInferiorImg {
-        max-width: 600px
-    }
-}
-
-@media screen and (max-width: 400px){
-    .overley p{
+@media screen and (max-width: 400px) {
+    .overley p {
         font-size: 18px;
     }
 
-    .overley i{
+    .overley i {
         font-size: 30px;
     }
 }
