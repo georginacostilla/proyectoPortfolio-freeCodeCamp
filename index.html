@@ -32,23 +32,26 @@
                         id="imgIcono"></a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                        <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#estudiosCursados">Estudios Cursados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="hero align-items-stretch">
+    <section class="hero align-items-stretch" id="sobreMi">
         <div class="heroPrincipal d-flex flex-column justify-content-center align-items-center">
             <img src="./img/photo-2.png" class="rounded-circle photo" alt="foto de perfil">
             <h2>Hello! Soy Georgina</h2><br>
@@ -70,7 +73,7 @@
         </div>
     </section>
 
-    <section class="segundaSeccion">
+    <section class="segundaSeccion" id="estudiosCursados">
         <div class="segundaSeccion">
             <h2 class="diseñoTitulo">Estudios Cursados🎓</h2>
             <p>
@@ -88,7 +91,7 @@
         </div>
     </section>
 
-    <section class="objetivos">
+    <section class="objetivos" id="estudiosCursados">
         <div class="container text-center">
             <div class="row">
                 <div class="columna col-12 col-md-4">
@@ -135,7 +138,7 @@
         </div>
     </section>
 
-    <section class="proyectoReciente d-flex flex-column">
+    <section class="proyectoReciente d-flex flex-column" id="proyectos">
         <h2 class="diseñoTitulo text-center">Mis proyectos de Programación📂</h2>
         <div class="container text-center proyecto-contenedor">
             <div class="row">
@@ -318,7 +321,7 @@
             mi trabajo..</h6>
     </div>
 
-    <section class="testimonios d-flex justify-content-center align-items-center">
+    <section class="testimonios d-flex justify-content-center align-items-center" id="testimonios">
         <div id="carouselExample" class="carousel slide carousel-dark">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -417,6 +420,46 @@
             </button>
         </div>
     </section>
+
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="container rectangulo text-center d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-6 descripcion">
+                        Por consultas, propuestas laborales o proyectos de desarrollo, no
+                        dudes en contactarme😃
+                    </div>
+                
+                    <div class="col-12 col-md-6">
+                        <a href="mailto:georginacostilla.gc@gmail.com">
+                            <button type="button">Contacto <i class="bi bi-envelope-at-fill"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black d-flex flex-column align-items-center justify-content-center" id="contacto">
+        <img class="footer-icono" src="./img/img-white.jpg" alt="logo del portafolio">
+        <p class="footer-texto text-center">Aprendo y práctico todos los días.<br>Armemos un proyecto juntos!</p>
+        <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+
+            <a href="https://www.linkedin.com/in/georgina-costilla/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/georginacostilla" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:georginacostilla.gc@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+            </a>
+            <a href="https://twitter.com/Georgina_okk" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+        </div>
+        <div class="derechoAutor">Creado por Georgina Costilla (2023) &#169;</div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">

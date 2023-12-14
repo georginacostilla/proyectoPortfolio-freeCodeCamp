@@ -228,8 +228,118 @@
     font-size: 1rem;
 }
 
-.testimonio-info .ocupacion{
+.testimonio-info .ocupacion {
     font-size: 0.8rem;
+}
+
+.contacto {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #ff2600;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion p {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+.footer {
+    min-height: 500px;
+}
+
+.footer-icono {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.iconos-redes a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover {
+    background-color: white;
+    border: 2px solid rgb(75, 8, 201)
+}
+
+.iconos-redes a:hover i {
+    color: black;
+}
+
+.derechoAutor {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    text-align: center;
 }
 
 /*oculta el icono en dispositivos pequeños*/
