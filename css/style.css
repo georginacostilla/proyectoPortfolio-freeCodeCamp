@@ -353,6 +353,7 @@
     height: 50px;
     padding: 5px;
     margin: 10px;
+    border-radius: 50%;
 }
 
 /*oculta el icono en dispositivos pequeños*/
