@@ -346,10 +346,13 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 5px 15px;
     background-color: white;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
 }
 
 /*oculta el icono en dispositivos pequeños*/
